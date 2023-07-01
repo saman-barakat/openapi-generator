@@ -5,9 +5,9 @@ This project contains a series of extension classes for some of the Java and Pyt
 
 In case you are not familiar with the concept, an inter-parameter dependency is when the presence or value of one or more parameters in an API request forces other parameters to be present or have a specific value. For example, we could have two optional parameters p1 and p2, but the presence of p1 in the request forces p2 to also be included. If not, APIs usually return a 400 Bad Request response.
 
-Currently, the expression of these dependencies is handled using the Inter-parameter Dependency Language (IDL). More information on IDL and the current implementation of this feature for OpenAPI generator can be found in the following links:
+Currently, the expression of these dependencies is handled using the Inter-parameter Dependency Language (IDL). More information on IDL and the current implementation of this feature for the OpenAPI generator can be found in the following links:
 
-- [IDL Website](https://github.com/isa-group/IDL)
+- [IDL Website](https://isa-group.github.io/IDL/)
 - IDL repository, including [examples of IDL dependencies](https://github.com/isa-group/IDL/tree/master/es.us.isa.interparamdep/resources/expressiveness_evaluation?rgh-link-date=2021-02-16T09%3A15%3A27Z): [isa-group/IDL](https://github.com/isa-group/IDL)
 - [Research paper on IDL](https://isa-group.github.io/IDL/publications/)
 - [Issue in the OpenAPI Generator repository](https://github.com/OpenAPITools/openapi-generator/issues/8722), including examples and implementation details.
